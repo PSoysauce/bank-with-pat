@@ -13,51 +13,18 @@ import SapphirePref from '../../img/chase_sapphire_preferred.png'
 import UnitedExplorer from '../../img/chase_united_explorer_card.png'
 import Bilt from '../../img/WF_Bilt.png'
 import SapphireRes from '../../img/chase_sapphire_reserve.png'
+import './Credit-Card.css'
 
-import Fab from '@mui/material/Fab';
 
 const CreditCard = () => (
-   //    function MyComponent(CardName, Image, Description) {
-   //       return(
-   //          <CreditCardWrapper>
-   //             <Card sx={{ maxWidth: 345 }}>
-   //                <CardActionArea>
-   //                <CardMedia
-   //                   component="img"
-   //                   image={Image}
-   //                   alt="Venture-X"
-   //                />
-   //                <CardContent>
-   //                   <Typography gutterBottom variant="h5" component="div">
-   //                   {CardName}
-   //                   </Typography>
-   //                   <Typography variant="body2" color="text.secondary">
-   //                      2X Everyday Purchases
-   //                      5X Cap One Flights
-   //                      10X Cap One Hotels
-   //                      {Description}
-   //                   </Typography>
-   //                </CardContent>
-   //                <Fab variant="extended" size="small" color="primary">
-   //                   Extended
-   //                   </Fab>
-   //                </CardActionArea>
-   //             </Card>
-   //          </CreditCardWrapper>
-   //       )
-   //   }
-   
- 
-
-
-
    <CreditCardWrapper>
+
       {/* Venture X https://i.capitalone.com/JuDOb7CvF */}
-      <div class="card">
-         <img class="card-img-top" src={VentureX} alt="Card image cap"></img>
-         <div class="card-body">
-            <h5 class="card-title">Venture X</h5>
-            <p class="card-text">
+      <div className="card w-50 card text-white bg-dark mb-3">
+         <img className="card-img-top" src={VentureX} alt="Card image cap"></img>
+         <div className="card-body">
+            <h5 className="card-title">Venture X</h5>
+            <p className="card-text">
                <li>
                   2X Everyday Purchases
                </li>
@@ -67,157 +34,144 @@ const CreditCard = () => (
                <li>
                   10X Cap One Hotels
                </li>
-                  </p>
-            <a href="https://i.capitalone.com/JuDOb7CvF" class="btn btn-primary">Go somewhere</a>
+            </p>
+            <a href="https://i.capitalone.com/JuDOb7CvF" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
+      <div className="card w-50 card text-white bg-dark mb-3">
+         <img className="card-img-top" src={SapphireRes} alt="Card image cap"></img>
+         <div className="card-body">
+            <h5 className="card-title">Sapphire Reserve</h5>
+            <p className="card-text">
+               <li>
+                  3X Dining & Travel
+               </li>
+               <li>
+                  1X Other
+               </li>
+               <li>
+                  Points Worth 25% when redeemed for travel
+               </li>
+               <li>
+                  $300 Travel Credit
+               </li>
+            </p>
+            <a href="https://www.referyourchasecard.com/19l/IOD7GJYRQS" className="btn btn-primary">Apply Now</a>
+         </div>
+      </div> 
+
       {/* Chase Saphire Preferred https://www.referyourchasecard.com/19l/IOD7GJYRQS */}
-      <div class="card">
-         <img class="card-img-top" src={SapphirePref} alt="Card image cap"></img>
-         <div class="card-body">
-            <h5 class="card-title">Sapphire Preferred</h5>
-            <p class="card-text">
+      <div className="card w-50 card text-white bg-dark mb-3">
+         <img className="card-img-top" src={SapphirePref} alt="Card image cap"></img>
+         <div className="card-body">
+            <h5 className="card-title">Sapphire Preferred</h5>
+            <p className="card-text">
                <li>
-                  2X Everyday Purchases
+                  3X Dining
                </li>
                <li>
-                  5X Cap One Flights
+                  2X Travel
                </li>
                <li>
-                  10X Cap One Hotels
+                  5X Chase Portal Hotel & Car Rental
                </li>
-                  </p>
-            <a href="https://www.referyourchasecard.com/19l/IOD7GJYRQS" class="btn btn-primary">Go somewhere</a>
+               <li>
+                  $50 Hotel Credit Through Chase Portal
+               </li>
+               <li>
+                  Points Worth 25% when redeemed for travel
+               </li>
+            </p>
+            <a href="https://www.referyourchasecard.com/19l/IOD7GJYRQS" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
       {/* Bilt MasterCard https://www.biltrewards.com/card/referral/0O6Y-OWW8 */}
-      <div class="card">
-         <img class="card-img-top" src={Bilt} alt="Card image cap"></img>
-         <div class="card-body">
-            <h5 class="card-title">Bilt MasterCard</h5>
-            <p class="card-text">
+      <div className="card w-50 card text-white bg-dark mb-3">
+         <img className="card-img-top" src={Bilt} alt="Card image cap"></img>
+         <div className="card-body">
+            <h5 className="card-title">Bilt MasterCard</h5>
+            <p className="card-text">
                <li>
-                  2X Everyday Purchases
+                  1X Rent
                </li>
                <li>
-                  5X Cap One Flights
+                  1st of month 6X Dining, 4X Travel, 2X Other
                </li>
                <li>
-                  10X Cap One Hotels
+                  Rest of Month 3X Dining, 2X Travel, 1X Other
                </li>
-                  </p>
-            <a href="https://www.biltrewards.com/card/referral/0O6Y-OWW8" class="btn btn-primary">Go somewhere</a>
+            </p>
+            <a href="https://www.biltrewards.com/card/referral/0O6Y-OWW8" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
       {/* Chase United Card https://www.referyourchasecard.com/215u/BBBWMYJY0W */}
-      <div class="card">
-         <img class="card-img-top" src={UnitedExplorer} alt="Card image cap"></img>
-         <div class="card-body">
-            <h5 class="card-title">United Explorer</h5>
-            <p class="card-text">
+      <div className="card w-50 card text-white bg-dark mb-3">
+         <img className="card-img-top" src={UnitedExplorer} alt="Card image cap"></img>
+         <div className="card-body">
+            <h5 className="card-title">United Explorer</h5>
+            <p className="card-text">
                <li>
-                  2X Everyday Purchases
+                  2X United
                </li>
                <li>
-                  5X Cap One Flights
+                  2 United Club Passes / Year
                </li>
                <li>
-                  10X Cap One Hotels
+                  Free Checked Bag for you and companion
                </li>
-                  </p>
-            <a href="https://www.referyourchasecard.com/215u/BBBWMYJY0W" class="btn btn-primary">Go somewhere</a>
+            </p>
+            <a href="https://www.referyourchasecard.com/215u/BBBWMYJY0W" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
       {/* Chase Freedom Flex https://www.referyourchasecard.com/18o/EY4VYPMTD1 */}
-      <div class="card">
-         <img class="card-img-top" src={FreedomFlex} alt="Card image cap"></img>
-         <div class="card-body">
-            <h5 class="card-title">Freedom Flex</h5>
-            <p class="card-text">
+      <div className="card w-50 card text-white bg-dark mb-3">
+         <img className="card-img-top" src={FreedomFlex} alt="Card image cap"></img>
+         <div className="card-body">
+            <h5 className="card-title">Freedom Flex</h5>
+            <p className="card-text">
                <li>
-                  2X Everyday Purchases
+                  5% Cash Back Rotating Quarterly Category
                </li>
                <li>
-                  5X Cap One Flights
+                  3% Dining & Drugstores
                </li>
                <li>
-                  10X Cap One Hotels
+                  1% Other
                </li>
-                  </p>
-            <a href="https://www.referyourchasecard.com/18o/EY4VYPMTD1" class="btn btn-primary">Go somewhere</a>
+               <li>
+                  5% Chase Ultimate Rewards Portal
+               </li>
+            </p>
+            <a href="https://www.referyourchasecard.com/18o/EY4VYPMTD1" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
       {/* Chase Freedom Unlimited https://www.referyourchasecard.com/18o/EY4VYPMTD1 */}
-      <div class="card">
-         <img class="card-img-top" src={FreedomUnlim} alt="Card image cap"></img>
-         <div class="card-body">
-            <h5 class="card-title">Freedom Unlimited</h5>
-            <p class="card-text">
+      <div className="card w-50 card text-white bg-dark mb-3">
+         <img className="card-img-top" src={FreedomUnlim} alt="Card image cap"></img>
+         <div className="card-body">
+            <h5 className="card-title">Freedom Unlimited</h5>
+            <p className="card-text">
                <li>
-                  2X Everyday Purchases
+                  3% Dining & Drugstores
                </li>
                <li>
-                  5X Cap One Flights
+                  1.5% All Other Purchases
                </li>
                <li>
-                  10X Cap One Hotels
+                  5% Chase Ultimate Rewards Portal
                </li>
-                  </p>
-            <a href="https://www.referyourchasecard.com/18o/EY4VYPMTD1" class="btn btn-primary">Go somewhere</a>
+            </p>
+            <a href="https://www.referyourchasecard.com/18o/EY4VYPMTD1" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
-      <div class="card">
-         <img class="card-img-top" src={SapphireRes} alt="Card image cap"></img>
-         <div class="card-body">
-            <h5 class="card-title">Sapphire Reserve</h5>
-            <p class="card-text">
-               <li>
-                  2X Everyday Purchases
-               </li>
-               <li>
-                  5X Cap One Flights
-               </li>
-               <li>
-                  10X Cap One Hotels
-               </li>
-                  </p>
-            <a href="https://www.referyourchasecard.com/19l/IOD7GJYRQS" class="btn btn-primary">Go somewhere</a>
-         </div>
-      </div>
-
-
-
-
-
-      <Card sx={{ maxWidth: 345 }}>
-         <CardActionArea>
-            <CardMedia
-               component="img"
-               image={VentureX}
-               alt="Venture-X"
-            />
-            <CardContent>
-               <Typography gutterBottom variant="h5" component="div">
-                  Venture-X
-               </Typography>
-               <Typography variant="body2" color="text.secondary">
-                  2X Everyday Purchases
-                  5X Cap One Flights
-                  10X Cap One Hotels
-               </Typography>
-            </CardContent>
-            <Fab variant="extended" size="small" color="primary">
-               Extended
-            </Fab>
-         </CardActionArea>
-      </Card>
-   </CreditCardWrapper>
+     
+   </CreditCardWrapper >
 );
 
 CreditCard.propTypes = {};
