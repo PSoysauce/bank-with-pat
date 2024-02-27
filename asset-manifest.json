@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bank-with-pat/static/css/main.4752257e.css",
+    "main.js": "/bank-with-pat/static/js/main.5a32a70d.js",
+    "static/js/453.9b4847e4.chunk.js": "/bank-with-pat/static/js/453.9b4847e4.chunk.js",
+    "static/media/cap-one-venture-x.png": "/bank-with-pat/static/media/cap-one-venture-x.966c78fb82e107bcf448.png",
+    "static/media/WF_Bilt.png": "/bank-with-pat/static/media/WF_Bilt.da78ca8d0579cde75b21.png",
+    "static/media/chase_united_explorer_card.png": "/bank-with-pat/static/media/chase_united_explorer_card.3feecf9eb69c2aa8ca6a.png",
+    "static/media/chase_freedom_unlimited.png": "/bank-with-pat/static/media/chase_freedom_unlimited.14802f9553480487b217.png",
+    "static/media/chase_sapphire_preferred.png": "/bank-with-pat/static/media/chase_sapphire_preferred.8d2ce8f7947641afbd8b.png",
+    "static/media/chase_freedom_flex.png": "/bank-with-pat/static/media/chase_freedom_flex.5f63b447cd1936029716.png",
+    "static/media/chase_sapphire_reserve.png": "/bank-with-pat/static/media/chase_sapphire_reserve.adf32ccb30aaf6c534ec.png",
+    "static/media/logo.svg": "/bank-with-pat/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/bank-with-pat/index.html",
+    "main.4752257e.css.map": "/bank-with-pat/static/css/main.4752257e.css.map",
+    "main.5a32a70d.js.map": "/bank-with-pat/static/js/main.5a32a70d.js.map",
+    "453.9b4847e4.chunk.js.map": "/bank-with-pat/static/js/453.9b4847e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4752257e.css",
+    "static/js/main.5a32a70d.js"
+  ]
+}
