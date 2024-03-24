@@ -39,30 +39,28 @@ const CreditCard = () => (
          </div>
       </div>
 
+      {/* Bilt MasterCard https://www.biltrewards.com/card/referral/0O6Y-OWW8 */}
       <div className="card w-50 card text-white bg-dark mb-3">
-         <img className="card-img-top" src={SapphireRes} alt="Card image cap"></img>
+         <img className="card-img-top" src={Bilt} alt="Card image cap"></img>
          <div className="card-body">
-            <h5 className="card-title">Sapphire Reserve</h5>
+            <h5 className="card-title">Bilt MasterCard</h5>
             <p className="card-text">
                <li>
-                  3X Dining & Travel
+                  1X Rent
                </li>
                <li>
-                  1X Other
+                  1st of month 6X Dining, 4X Travel, 2X Other
                </li>
                <li>
-                  Points Worth 25% when redeemed for travel
-               </li>
-               <li>
-                  $300 Travel Credit
+                  Rest of Month 3X Dining, 2X Travel, 1X Other
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/19l/IOD7GJYRQS" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.biltrewards.com/card/referral/0O6Y-OWW8" className="btn btn-primary">Apply Now</a>
          </div>
-      </div> 
+      </div>
 
-      {/* Chase Saphire Preferred https://www.referyourchasecard.com/19l/IOD7GJYRQS */}
-      <div className="card w-50 card text-white bg-dark mb-3">
+       {/* Chase Saphire Preferred https://www.referyourchasecard.com/19l/IOD7GJYRQS */}
+       <div className="card w-50 card text-white bg-dark mb-3">
          <img className="card-img-top" src={SapphirePref} alt="Card image cap"></img>
          <div className="card-body">
             <h5 className="card-title">Sapphire Preferred</h5>
@@ -87,48 +85,8 @@ const CreditCard = () => (
          </div>
       </div>
 
-      {/* Bilt MasterCard https://www.biltrewards.com/card/referral/0O6Y-OWW8 */}
-      <div className="card w-50 card text-white bg-dark mb-3">
-         <img className="card-img-top" src={Bilt} alt="Card image cap"></img>
-         <div className="card-body">
-            <h5 className="card-title">Bilt MasterCard</h5>
-            <p className="card-text">
-               <li>
-                  1X Rent
-               </li>
-               <li>
-                  1st of month 6X Dining, 4X Travel, 2X Other
-               </li>
-               <li>
-                  Rest of Month 3X Dining, 2X Travel, 1X Other
-               </li>
-            </p>
-            <a href="https://www.biltrewards.com/card/referral/0O6Y-OWW8" className="btn btn-primary">Apply Now</a>
-         </div>
-      </div>
-
-      {/* Chase United Card https://www.referyourchasecard.com/215u/BBBWMYJY0W */}
-      <div className="card w-50 card text-white bg-dark mb-3">
-         <img className="card-img-top" src={UnitedExplorer} alt="Card image cap"></img>
-         <div className="card-body">
-            <h5 className="card-title">United Explorer</h5>
-            <p className="card-text">
-               <li>
-                  2X United
-               </li>
-               <li>
-                  2 United Club Passes / Year
-               </li>
-               <li>
-                  Free Checked Bag for you and companion
-               </li>
-            </p>
-            <a href="https://www.referyourchasecard.com/215u/BBBWMYJY0W" className="btn btn-primary">Apply Now</a>
-         </div>
-      </div>
-
-      {/* Chase Freedom Flex https://www.referyourchasecard.com/18o/EY4VYPMTD1 */}
-      <div className="card w-50 card text-white bg-dark mb-3">
+       {/* Chase Freedom Flex https://www.referyourchasecard.com/18o/EY4VYPMTD1 */}
+       <div className="card w-50 card text-white bg-dark mb-3">
          <img className="card-img-top" src={FreedomFlex} alt="Card image cap"></img>
          <div className="card-body">
             <h5 className="card-title">Freedom Flex</h5>
@@ -146,7 +104,7 @@ const CreditCard = () => (
                   5% Chase Ultimate Rewards Portal
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/18o/EY4VYPMTD1" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/18M/HY95P5QT0I" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -166,7 +124,50 @@ const CreditCard = () => (
                   5% Chase Ultimate Rewards Portal
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/18o/EY4VYPMTD1" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/18M/HY95P5QT0I" className="btn btn-primary">Apply Now</a>
+         </div>
+      </div>
+
+      <div className="card w-50 card text-white bg-dark mb-3">
+         <img className="card-img-top" src={SapphireRes} alt="Card image cap"></img>
+         <div className="card-body">
+            <h5 className="card-title">Sapphire Reserve</h5>
+            <p className="card-text">
+               <li>
+                  3X Dining & Travel
+               </li>
+               <li>
+                  1X Other
+               </li>
+               <li>
+                  Points Worth 50% when redeemed for travel
+               </li>
+               <li>
+                  $300 Travel Credit
+               </li>
+            </p>
+            <a href="https://www.referyourchasecard.com/19l/IOD7GJYRQS" className="btn btn-primary">Apply Now</a>
+         </div>
+      </div> 
+
+
+      {/* Chase United Card https://www.referyourchasecard.com/215u/BBBWMYJY0W */}
+      <div className="card w-50 card text-white bg-dark mb-3">
+         <img className="card-img-top" src={UnitedExplorer} alt="Card image cap"></img>
+         <div className="card-body">
+            <h5 className="card-title">United Explorer</h5>
+            <p className="card-text">
+               <li>
+                  2X United
+               </li>
+               <li>
+                  2 United Club Passes / Year
+               </li>
+               <li>
+                  Free Checked Bag for you and companion
+               </li>
+            </p>
+            <a href="https://www.referyourchasecard.com/215u/BBBWMYJY0W" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
