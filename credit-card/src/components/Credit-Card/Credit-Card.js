@@ -13,11 +13,29 @@ import SapphirePref from '../../img/chase_sapphire_preferred.png'
 import UnitedExplorer from '../../img/chase_united_explorer_card.png'
 import Bilt from '../../img/WF_Bilt.png'
 import SapphireRes from '../../img/chase_sapphire_reserve.png'
+import Robinhood from '../../img/robinhood-card.png'
 import './Credit-Card.css'
 
 
 const CreditCard = () => (
    <CreditCardWrapper>
+      
+      {/* Robinhood Card */}
+      <div className="card w-50 card text-white bg-dark mb-3">
+         <img className="card-img-top" src={Robinhood} alt="Card image cap"></img>
+         <div className="card-body">
+            <h5 className="card-title">Robinhood Gold Card</h5>
+            <p className="card-text">
+               <li>
+                  3% All Purchases
+               </li>
+               <li>
+                  5% Robinhood Travel
+               </li>
+            </p>
+            <a href="https://robinhood.com/creditcard?referral_code=49f2ff55" className="btn btn-primary">Apply Now</a>
+         </div>
+      </div>
 
       {/* Venture X https://i.capitalone.com/JuDOb7CvF */}
       <div className="card w-50 card text-white bg-dark mb-3">
