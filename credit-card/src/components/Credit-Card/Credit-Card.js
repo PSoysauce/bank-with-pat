@@ -60,7 +60,7 @@ const CreditCard = () => (
          </div>
       </div>
 
-       {/* Chase Saphire Preferred https://www.referyourchasecard.com/19l/IOD7GJYRQS */}
+       {/* Chase Saphire Preferred https://www.referyourchasecard.com/19n/T7VX6UGIXH */}
        <div className="card w-50 card text-white bg-dark mb-3">
          <img className="card-img-top" src={SapphirePref} alt="Card image cap"></img>
          <div className="card-body">
@@ -82,7 +82,7 @@ const CreditCard = () => (
                   Points Worth 25% when redeemed for travel
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/19l/IOD7GJYRQS" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/19n/T7VX6UGIXH" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -147,7 +147,7 @@ const CreditCard = () => (
                   $300 Travel Credit
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/19l/IOD7GJYRQS" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/19n/T7VX6UGIXH" className="btn btn-primary">Apply Now</a>
          </div>
       </div> 
 
