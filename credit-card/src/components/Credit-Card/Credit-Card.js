@@ -15,6 +15,7 @@ import Bilt from '../../img/WF_Bilt.png'
 import SapphireRes from '../../img/chase_sapphire_reserve.png'
 import Robinhood from '../../img/robinhood-card.png'
 import Rise from '../../img/rise_card_sel.png'
+import Gold from '../../img/amex-gold.png'
 import './Credit-Card.css'
 
 
@@ -60,6 +61,30 @@ const CreditCard = () => (
          </div>
       </div>
 
+      {/* Amex Gold https://i.capitalone.com/JuDOb7CvF */}
+      <div className="card w-50 card text-white bg-dark mb-3">
+         <img className="card-img-top" src={Gold} alt="Card image cap"></img>
+         <div className="card-body">
+            <h5 className="card-title">Amex Gold</h5>
+            <p className="card-text">
+               <li>
+                  4X Dining
+               </li>
+               <li>
+                  4X Groceries
+               </li>
+               <li>
+                  3X Flights
+               </li>
+               <li>
+                  1X Other
+               </li>
+            </p>
+            <a href="https://i.capitalone.com/JuDOb7CvF" className="btn btn-primary">Apply Now</a>
+         </div>
+      </div>
+
+
        {/* Chase Saphire Preferred https://www.referyourchasecard.com/19n/T7VX6UGIXH */}
        <div className="card w-50 card text-white bg-dark mb-3">
          <img className="card-img-top" src={SapphirePref} alt="Card image cap"></img>
@@ -82,7 +107,7 @@ const CreditCard = () => (
                   Points Worth 25% when redeemed for travel
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/19n/T7VX6UGIXH" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/19o/YHXJ8P1K87" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -105,7 +130,7 @@ const CreditCard = () => (
                   5% Chase Ultimate Rewards Portal
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/18M/HY95P5QT0I" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/18j/AL1DE70TV2" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -125,7 +150,7 @@ const CreditCard = () => (
                   5% Chase Ultimate Rewards Portal
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/18M/HY95P5QT0I" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/18j/AL1DE70TV2" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -147,7 +172,7 @@ const CreditCard = () => (
                   $300 Travel Credit
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/19n/T7VX6UGIXH" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/19o/YHXJ8P1K87" className="btn btn-primary">Apply Now</a>
          </div>
       </div> 
 
@@ -168,7 +193,7 @@ const CreditCard = () => (
                   Free Checked Bag for you and companion
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/215r/M6KKP47TXC" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/215j/4P9WPS665S" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -186,11 +211,11 @@ const CreditCard = () => (
                   Good first credit card for students
                </li>
             </p>
-            <a href="https://robinhood.com/creditcard?referral_code=49f2ff55" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/18j/AL1DE70TV2" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
-     
-     {/* Robinhood Card */}
+
+     {/* Robinhood Card
      <div className="card w-50 card text-white bg-dark mb-3">
          <img className="card-img-top" src={Robinhood} alt="Card image cap"></img>
          <div className="card-body">
@@ -205,7 +230,7 @@ const CreditCard = () => (
             </p>
             <a href="https://robinhood.com/creditcard?referral_code=49f2ff55" className="btn btn-primary">Apply Now</a>
          </div>
-      </div>
+      </div> */}
 
    </CreditCardWrapper >
 );
