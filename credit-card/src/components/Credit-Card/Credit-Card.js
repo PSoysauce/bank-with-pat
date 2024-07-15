@@ -61,7 +61,7 @@ const CreditCard = () => (
          </div>
       </div>
 
-      {/* Amex Gold https://i.capitalone.com/JuDOb7CvF */}
+      {/* Amex Gold https://americanexpress.com/en-us/referral/gold-card?ref=PATRIS28GH&XLINK=MYCP */}
       <div className="card w-50 card text-white bg-dark mb-3">
          <img className="card-img-top" src={Gold} alt="Card image cap"></img>
          <div className="card-body">
@@ -80,7 +80,7 @@ const CreditCard = () => (
                   1X Other
                </li>
             </p>
-            <a href="https://i.capitalone.com/JuDOb7CvF" className="btn btn-primary">Apply Now</a>
+            <a href="https://americanexpress.com/en-us/referral/gold-card?ref=PATRIS28GH&XLINK=MYCP" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
