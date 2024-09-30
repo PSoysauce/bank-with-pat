@@ -111,7 +111,7 @@ const CreditCard = () => (
          </div>
       </div>
 
-       {/* Chase Freedom Flex https://www.referyourchasecard.com/18o/EY4VYPMTD1 */}
+       {/* Chase Freedom Flex*/}
        <div className="card w-50 card text-white bg-dark mb-3">
          <img className="card-img-top" src={FreedomFlex} alt="Card image cap"></img>
          <div className="card-body">
@@ -130,7 +130,7 @@ const CreditCard = () => (
                   5% Chase Ultimate Rewards Portal
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/18j/AL1DE70TV2" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/18s/55WQ21IBQI" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -150,7 +150,7 @@ const CreditCard = () => (
                   5% Chase Ultimate Rewards Portal
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/18j/AL1DE70TV2" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/18s/55WQ21IBQI" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -193,7 +193,7 @@ const CreditCard = () => (
                   Free Checked Bag for you and companion
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/215j/4P9WPS665S" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/215A/E6950HGCV1" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -211,7 +211,7 @@ const CreditCard = () => (
                   Good first credit card for students
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/18j/AL1DE70TV2" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/18s/55WQ21IBQI" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
