@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bank-with-pat/static/css/main.4752257e.css",
-    "main.js": "/bank-with-pat/static/js/main.0073b46f.js",
+    "main.js": "/bank-with-pat/static/js/main.697c8f85.js",
     "static/js/453.9b4847e4.chunk.js": "/bank-with-pat/static/js/453.9b4847e4.chunk.js",
     "static/media/cap-one-venture-x.png": "/bank-with-pat/static/media/cap-one-venture-x.966c78fb82e107bcf448.png",
     "static/media/amex-gold.png": "/bank-with-pat/static/media/amex-gold.a4bbb7e5fff5fbb8f6bb.png",
@@ -16,11 +16,11 @@
     "static/media/logo.svg": "/bank-with-pat/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/bank-with-pat/index.html",
     "main.4752257e.css.map": "/bank-with-pat/static/css/main.4752257e.css.map",
-    "main.0073b46f.js.map": "/bank-with-pat/static/js/main.0073b46f.js.map",
+    "main.697c8f85.js.map": "/bank-with-pat/static/js/main.697c8f85.js.map",
     "453.9b4847e4.chunk.js.map": "/bank-with-pat/static/js/453.9b4847e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4752257e.css",
-    "static/js/main.0073b46f.js"
+    "static/js/main.697c8f85.js"
   ]
 }
