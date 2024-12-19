@@ -13,6 +13,7 @@ import SapphirePref from '../../img/chase_sapphire_preferred.png'
 import UnitedExplorer from '../../img/chase_united_explorer_card.png'
 import Bilt from '../../img/WF_Bilt.png'
 import SapphireRes from '../../img/chase_sapphire_reserve.png'
+import Plat from '../../img/amex-plat.png'
 import Robinhood from '../../img/robinhood-card.png'
 import Rise from '../../img/rise_card_sel.png'
 import Gold from '../../img/amex-gold.png'
@@ -79,11 +80,39 @@ const CreditCard = () => (
                <li>
                   1X Other
                </li>
+               <li>
+                  Credits to offset annual fee
+               </li>
             </p>
-            <a href="https://americanexpress.com/en-us/referral/gold-card?ref=PATRIS28GH&XLINK=MYCP" className="btn btn-primary">Apply Now</a>
+            <a href="https://americanexpress.com/en-us/referral/gold-card?ref=PATRISJZ8m&XL=MIANS" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
+      {/* Amex Platinum https://americanexpress.com/en-us/referral/gold-card?ref=PATRIS28GH&XLINK=MYCP */}
+      <div className="card w-50 card text-white bg-dark mb-3">
+         <img className="card-img-top" src={Plat} alt="Card image cap"></img>
+         <div className="card-body">
+            <h5 className="card-title">Amex Platinum</h5>
+            <p className="card-text">
+               <li>
+                  5X Flights
+               </li>
+               <li>
+                  5X Hotels Through Amex Portal
+               </li>
+               <li>
+                  1X Other
+               </li>
+               <li>
+                  Centurion Lounge Access
+               </li>
+               <li>
+                  Lots of credits to offset annual fee
+               </li>
+            </p>
+            <a href="https://americanexpress.com/en-us/referral/platinum-card?ref=PATRISEg4e&XL=MIANS" className="btn btn-primary">Apply Now</a>
+         </div>
+      </div>
 
        {/* Chase Saphire Preferred https://www.referyourchasecard.com/19n/T7VX6UGIXH */}
        <div className="card w-50 card text-white bg-dark mb-3">
@@ -107,7 +136,7 @@ const CreditCard = () => (
                   Points Worth 25% when redeemed for travel
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/19o/YHXJ8P1K87" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/19q/IOD7GJYRQS" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -130,7 +159,7 @@ const CreditCard = () => (
                   5% Chase Ultimate Rewards Portal
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/18s/55WQ21IBQI" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/18N/1X4GFCLXM0" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -150,7 +179,7 @@ const CreditCard = () => (
                   5% Chase Ultimate Rewards Portal
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/18s/55WQ21IBQI" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/18N/1X4GFCLXM0" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -172,7 +201,7 @@ const CreditCard = () => (
                   $300 Travel Credit
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/19o/YHXJ8P1K87" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/19q/IOD7GJYRQS" className="btn btn-primary">Apply Now</a>
          </div>
       </div> 
 
@@ -193,7 +222,7 @@ const CreditCard = () => (
                   Free Checked Bag for you and companion
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/215A/E6950HGCV1" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/215n/6BYDT6KJ43" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -211,7 +240,7 @@ const CreditCard = () => (
                   Good first credit card for students
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/18s/55WQ21IBQI" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/18N/1X4GFCLXM0" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
