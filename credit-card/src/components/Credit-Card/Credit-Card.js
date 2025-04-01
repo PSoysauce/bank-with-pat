@@ -84,7 +84,7 @@ const CreditCard = () => (
                   Credits to offset annual fee
                </li>
             </p>
-            <a href="https://americanexpress.com/en-us/referral/gold-card?ref=PATRISJZ8m&XL=MIANS" className="btn btn-primary">Apply Now</a>
+            <a href="https://americanexpress.com/en-us/referral/gold-card?ref=PATRIStLbv&xl=cp01" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -136,7 +136,7 @@ const CreditCard = () => (
                   Points Worth 25% when redeemed for travel
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/19q/IOD7GJYRQS" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/19q/YHXJ8P1K87" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -159,7 +159,7 @@ const CreditCard = () => (
                   5% Chase Ultimate Rewards Portal
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/18N/1X4GFCLXM0" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/18m/E33AXSQSS0" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -179,7 +179,7 @@ const CreditCard = () => (
                   5% Chase Ultimate Rewards Portal
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/18N/1X4GFCLXM0" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/18m/E33AXSQSS0" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
@@ -201,7 +201,7 @@ const CreditCard = () => (
                   $300 Travel Credit
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/19q/IOD7GJYRQS" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/19q/YHXJ8P1K87" className="btn btn-primary">Apply Now</a>
          </div>
       </div> 
 
@@ -222,12 +222,12 @@ const CreditCard = () => (
                   Free Checked Bag for you and companion
                </li>
             </p>
-            <a href="https://www.referyourchasecard.com/215n/6BYDT6KJ43" className="btn btn-primary">Apply Now</a>
+            <a href="https://www.referyourchasecard.com/215R/TFZK1NPZ49" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
 
-       {/* Freedom Rise */}
+       {/* Freedom Rise
        <div className="card w-50 card text-white bg-dark mb-3">
          <img className="card-img-top" src={Rise} alt="Card image cap"></img>
          <div className="card-body">
@@ -242,7 +242,7 @@ const CreditCard = () => (
             </p>
             <a href="https://www.referyourchasecard.com/18N/1X4GFCLXM0" className="btn btn-primary">Apply Now</a>
          </div>
-      </div>
+      </div> */}
 
      {/* Robinhood Card
      <div className="card w-50 card text-white bg-dark mb-3">
