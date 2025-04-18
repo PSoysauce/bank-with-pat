@@ -110,7 +110,7 @@ const CreditCard = () => (
                   Lots of credits to offset annual fee
                </li>
             </p>
-            <a href="https://americanexpress.com/en-us/referral/platinum-card?ref=PATRISEg4e&XL=MIANS" className="btn btn-primary">Apply Now</a>
+            <a href="https://americanexpress.com/en-us/referral/platinum-card?ref=PATRISc6aB&xl=cp108t" className="btn btn-primary">Apply Now</a>
          </div>
       </div>
 
